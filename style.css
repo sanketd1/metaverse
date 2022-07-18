@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.container-home{
+    width: 100%;
+    height: 100vh;
+    background: url(./img/Dark-Gradient.png)center/cover;
+}
+
+.main{
+    width: 100%;
+    height: 85vh;
+    /* background: red; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.right{
+    overflow: hidden;
+    z-index: 1;
+}
+
+.right img{
+    width: 100%;
+    margin-top: 30px;
+    /* position: relative;
+    right: -50px;
+    bottom: -50px; */
+}
+
+.left-para{
+    letter-spacing: 3px;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.heading1{
+    font-size: 80px;
+    letter-spacing: 3px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+}
+
+
+.text{
+   margin-top: -20px;
+}
+
+.desc{
+    font-size: 20px;
+    margin-top: 30px;
+    width: 550px;
+}
+
+.play{
+    width: 25%;
+    margin-left: 50px;
+}
+
+.box{
+    width: 90%;
+    height: 200px;
+    background: rgb(63, 0, 136);
+    position: absolute;
+    left: 5%;
+    bottom: -110px;
+    z-index: 10;
+    border-radius: 5px;
+}
+
+.box1{  
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    background: rgba(228, 228, 228, 0.26);
+    border-radius: 5px;
+    padding-top: 4px;
+}
+
+.box1 h3{
+    margin-top: 20px;
+}
+
+.box1 p{
+    width: 90%;
+    text-align: center;
+}
+
+.container-find{
+    width: 100%;
+    height: 100vh;
+    background: url(./img/back2.png)center/cover;
+    display: flex;
+    padding-top: 100px;
+}
+.left2{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right2{
+    width: 50%;
+    height: 80vh;
+    padding-top: 200px;
+}
+
+.right2 h1{
+    font-size: 60px;
+    margin-left: 60px;
+}
+
+.right2 p{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.pro{
+    margin-left: 60px;
+}
+
+.left2 img{
+    width: 80%;
+}
+
+
+.container-char{
+    width: 100%;
+    height: 100vh;
+    background: url(./img/back3.png)center/cover;
+    display: flex;
+    padding-top: 100px;
+}
+
+.left3{
+    width: 50%;
+    height: 80vh;
+}
+
+.left3 h1{
+    font-size: 60px;
+    margin-left: 80px;
+    margin-top: 150px;
+}
+
+.left3 p{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 650px;
+}
+
+.left3 .btn{
+    margin-left: 80px;
+
+}
+
+.right3{
+    width: 50%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.right3 img{
+    position: relative;
+    right: 150px;
+    width: 122%;
+}
